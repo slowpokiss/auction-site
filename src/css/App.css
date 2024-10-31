@@ -1,0 +1,46 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+}
+
+th {
+  padding: 10px;
+  color: #72a1b2;
+}
+
+thead > tr > th:first-child {
+  width: 200px;
+}
+
+tbody > tr:nth-child(odd) {
+  background: #f4f4f4;
+}
+
+tbody > tr:hover {
+  background: #e4e4e4;
+}
+
+td {
+  padding: 10px;
+}
+
+.params {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.price {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.discount {
+  color: #ff0000;
+}
+
+.total {
+  color: #2d862d;
+  font-weight: bold;
+}
